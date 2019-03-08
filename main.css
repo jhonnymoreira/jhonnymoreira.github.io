@@ -1,0 +1,37 @@
+:root {
+  --primary-color: #8c14fc;
+  --secondary-color: #fffdf2;
+  --font-family: 'IBM Plex Mono', monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.summary {
+  align-items: center;
+  background-color: var(--primary-color);
+  box-sizing: border-box;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.summary__content {
+  color: var(--secondary-color);
+  font-family: var(--font-family);
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.summary__title {
+  color: var(--secondary-color);
+  font-family: var(--font-family);
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
